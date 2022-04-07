@@ -1,0 +1,183 @@
+@import url('null.css');
+
+/*-------------------- Подключение шрифтов ----------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+/*-------------------- Технический контейнер ----------------------*/
+[class*='__container'] {
+	margin: 0px auto;
+	max-width: 1050px;
+	padding: 0px 15px;
+}
+/*-------------------- Технические блоки ----------------------*/
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+.main {
+	padding: 100px 0px 0px 0px;
+}
+/*-------------------- Общие стили ----------------------*/
+.subtitle {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 2;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	padding: 0px 0px 0px 33px;
+	background: url(../img/icon-subtitle.svg) 0 -2px no-repeat;
+	color: #ffffff;
+}
+/*-------------------- our-impact ----------------------*/
+.our-impact {
+	padding: 112px 0px 212px 0px;
+	background: #29c3be;
+	position: relative;
+}
+.our-impact::before {
+	content: '';
+	width: 695px;
+	height: 308px;
+	position: absolute;
+	top: 0;
+	right: 369px;
+	background: url(../img/decor-image.png) 0 0 / cover no-repeat;
+	z-index: 1;
+}
+.our-impact__container {
+	position: relative;
+	z-index: 2;
+}
+.our-impact__top {
+	display: flex;
+}
+.our-impact__top:not(:last-child) {
+	margin: 0px 0px 76px 0px;
+}
+.our-impact__body {
+	flex: 0 1 50%;
+	color: #ffffff;
+	padding: 0px 40px 0px 0px;
+}
+.our-impact__subtitle {
+}
+
+.our-impact__subtitle:not(:last-child) {
+	margin: 0px 0px 32px 0px;
+}
+.our-impact__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.17;
+}
+.our-impact__image {
+	flex: 0 1 50%;
+	margin: -192px 0px 0px 0px;
+}
+.our-impact__image img {
+	border-radius: 40px;
+}
+.our-impact__row {
+	display: flex;
+	margin: 0px -12px;
+	flex-wrap: wrap;
+}
+.our-impact__item {
+}
+.item-our-impact {
+	display: flex;
+	flex: 0 1 25%;
+	padding: 0px 12px;
+}
+.item-our-impact__image {
+}
+.item-our-impact__image img {
+	width: 100%;
+	transition: 0.2s;
+}
+.item-our-impact__image img:hover {
+	transform: scale(1.1);
+}
+.item-our-impact__body {
+	padding: 0px 0px 0px 12.5px;
+}
+.item-our-impact__number {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.17;
+	color: #ffffff;
+}
+.item-our-impact__number:not(:last-child) {
+	margin: 0px 0px 3px 0px;
+}
+.item-our-impact__text {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #5d62b5;
+}
+
+/*-------------------- our-promise ----------------------*/
+.our-promise {
+	padding: 80px 0px;
+}
+.our-promise__container {
+}
+.our-promise__subtitle {
+}
+.our-promise__subtitle:not(:last-child) {
+	margin: 0px 0px 33px 0px;
+}
+.subtitle_violet {
+	color: #5d62b5;
+	background: url(../img/icon-subtitle-violet.svg) 0 -2px no-repeat;
+}
+.our-promise__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.17;
+	color: #000000;
+}
+.our-promise__title:not(:last-child) {
+	margin: 0px 0px 68px 0px;
+}
+.our-promise__row {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px -12px;
+}
+.our-promise__item {
+}
+.item-our-promise {
+	display: flex;
+	flex: 0 1 33.333%;
+	padding: 0px 12px;
+}
+.item-our-promise__image {
+}
+.item-our-promise__image img {
+	transition: 0.2s;
+}
+.item-our-promise__image img:hover {
+	transform: scale(1.1);
+}
+.item-our-promise__body {
+	padding: 0px 0px 0px 23px;
+}
+.item-our-promise__subtitle {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 1.37;
+	color: #f2726f;
+}
+.item-our-promise__subtitle:not(:last-child) {
+	margin: 0px 0px 20px 0px;
+}
+.item-our-promise__text {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.15px;
+	color: #4b4b4b;
+}
